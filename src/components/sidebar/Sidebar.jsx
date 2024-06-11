@@ -19,7 +19,7 @@ export default function Sidebar() {
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
-                            <Link to="/"className="link" >
+                            <Link to="/" className="link" >
                                 <LineStyleIcon className="sidebarIcon" />
                                 Home
                             </Link>
@@ -39,13 +39,15 @@ export default function Sidebar() {
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
                             <Link to="/products" className="link">
-                            <InventoryIcon className="sidebarIcon" />
-                            Products
+                                <InventoryIcon className="sidebarIcon" />
+                                Products
                             </Link>
                         </li>
                         <li className="sidebarListItem">
-                            <PersonIcon className="sidebarIcon" />
-                            Users
+                            <Link to="/users" className="link">
+                                <PersonIcon className="sidebarIcon" />
+                                Users
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
                             <CurrencyRupeeRoundedIcon className="sidebarIcon" />
