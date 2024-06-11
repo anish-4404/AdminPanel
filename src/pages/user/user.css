@@ -1,3 +1,9 @@
 .user{
     flex: 4;
 }
+
+@media (max-width: 768px) {
+    .user {
+        padding: 10px;
+    }
+}

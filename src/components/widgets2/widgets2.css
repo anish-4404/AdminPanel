@@ -53,3 +53,15 @@
       color: #2a7ade;
   
   }
+
+  @media (max-width: 768px) {
+    .widgets2Table {
+        border-spacing: 10px;
+    }
+
+    .widgets2Button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

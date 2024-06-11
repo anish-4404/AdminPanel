@@ -54,3 +54,20 @@
     font-size: 16px;
     margin-right: 5px;
 }
+
+@media (max-width: 768px) {
+    .widgets1 {
+        margin-right: 0;
+    }
+
+    .widgets1ListItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .widgets1Button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
